@@ -59,7 +59,7 @@
         android:text="标题1" />
 
     <com.bubu.status.StatusLayout
-        android:id="@+id/empty"
+        android:id="@+id/status_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

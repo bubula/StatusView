@@ -26,8 +26,8 @@ public class Main2Activity extends AppCompatActivity {
                 Toast.makeText(Main2Activity.this, "重新加载数据", Toast.LENGTH_LONG).show();
             }
         });
-        statusLayout =
-                new StatusLayout.Builder().setContentView(ll_content).setStatusView(statusView).build();
+            statusLayout =
+                    new StatusLayout.Builder().setContentView(ll_content).setStatusView(statusView).build();
         Log.d(TAG, "onCreate: 是否相等" + (new StatusLayout.Builder().setContentView(ll_content).setStatusView(statusView).build() == StatusLayout.getInstance(ll_content, statusView)));
         Log.d(TAG, "onCreate: " + new StatusLayout.Builder().setContentView(ll_content).setStatusView(statusView).build().hashCode());
         Log.d(TAG, "onCreate: " + StatusLayout.getInstance(ll_content, statusView).hashCode());
