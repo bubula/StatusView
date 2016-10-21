@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StatusView</string>
+    <string name="loading">自定义加载中</string>
+    <string name="setting">自定义设置</string>
+    <string name="retry">自定义重试</string>
+    <string name="empty">自定义内容为空</string>
+    <string name="error">网络错误</string>
+</resources>
