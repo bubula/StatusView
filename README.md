@@ -12,10 +12,10 @@
         });
   statusLayout =
                 new StatusLayout.Builder().setContentView(ll_content).setStatusView(statusView).build();
-                 statusLayout.showLoading();
-                 statusLayout.showEmpty();
-                 statusLayout.showContent();
-                 statusLayout.showRetry();
-                 statusLayout.showSetting();
+  statusLayout.showLoading();
+  statusLayout.showEmpty();
+  statusLayout.showContent();
+  statusLayout.showRetry();
+  statusLayout.showSetting();
                  
    
