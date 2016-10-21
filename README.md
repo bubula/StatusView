@@ -10,13 +10,13 @@
                 Toast.makeText(Main2Activity.this, "重新加载数据", Toast.LENGTH_LONG).show();
             }
         });
-  statusLayout =
+    statusLayout =
                 new StatusLayout.Builder().setContentView(ll_content).setStatusView(statusView).build();
-  statusLayout.showLoading();
-  statusLayout.showEmpty();
-  statusLayout.showContent();
-  statusLayout.showRetry();
-  statusLayout.showSetting();
-  123
+    statusLayout.showLoading();
+    statusLayout.showEmpty();
+    statusLayout.showContent();
+    statusLayout.showRetry();
+    statusLayout.showSetting();
+
                  
    
