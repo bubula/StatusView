@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        statusLayout = (StatusLayout) findViewById(R.id.empty);
+        statusLayout = (StatusLayout) findViewById(R.id.status_layout);
         statusView = new MyStatusView(this).setRetryClickLister(new MyStatusView.onRetryClickLister() {
             @Override
             public void onRetryClick() {
